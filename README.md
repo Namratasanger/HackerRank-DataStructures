@@ -10,3 +10,6 @@ The repository contains the solution of the problems that are posted on Hacker r
     
 3. [Dynamic Array](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/DynamicArray.js) <br/>
     Level - Easy
+    
+4. [Left Rotation](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/LeftRotation.js) Implemented the reversal algorithm <br/>
+    Level - Easy
