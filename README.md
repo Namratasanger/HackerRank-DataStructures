@@ -7,3 +7,6 @@ The repository contains the solution of the problems that are posted on Hacker r
 
 2. [2D Array - DS](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/2D%20Array%20-%20DS.js) - Finding maximum sum in an hour glass from matrix <br/>
     Level - Easy
+    
+3. [Dynamic Array](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/DynamicArray.js) <br/>
+    Level - Easy
