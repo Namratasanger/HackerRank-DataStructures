@@ -13,3 +13,6 @@ The repository contains the solution of the problems that are posted on Hacker r
     
 4. [Left Rotation](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/LeftRotation.js) - Implemented the reversal algorithm <br/>
     Level - Easy
+    
+5. [Sparse Array](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/SparseArray.js) - 2 approaches one with O(N^2) time complexity and another with O(N+Q) time complexity <br/>
+    Level - Medium
