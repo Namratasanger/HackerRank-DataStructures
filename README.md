@@ -1,6 +1,7 @@
 # Hacker Rank - DataStructures
-
 The repository contains the solution of the problems that are posted on Hacker rank. The solutions are developed in Javascript.
+
+### Arrays
 
 1. [Array - DS](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Array-DS.js) - Reverse an array. <br/>
     Level - Easy
@@ -16,3 +17,6 @@ The repository contains the solution of the problems that are posted on Hacker r
     
 5. [Sparse Array](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/SparseArray.js) - 2 approaches one with O(N^2) time complexity and another with O(N+Q) time complexity <br/>
     Level - Medium
+
+6. [Array Manipulation](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/ArrayManipulation.js) <br/>
+    Level - Hard
