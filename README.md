@@ -22,5 +22,8 @@ The repository contains the solution of the problems that are posted on Hacker r
     Level - Hard
 
 ### Linked list:
-1. [Printing the elements of Linked list](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/Print%20the%20elements%20of%20Linked%20List.js) <br/>
+1. [Printing the elements of Linked list](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/PrintLinkedList.js) <br/>
+    Level - Easy
+    
+2. [Inserting New Node at the tail of Linked list](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/InsertNode.js) <br/>
     Level - Easy
