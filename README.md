@@ -27,3 +27,5 @@ The repository contains the solution of the problems that are posted on Hacker r
     
 2. [Inserting New Node at the tail of Linked list](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/InsertNode.js) <br/>
     Level - Easy
+
+3. [Inserting New Node at the head of Linked list](https://github.com/Namratasanger/HackerRank-DataStructures/tree/master/Linkedlist) <br/>
