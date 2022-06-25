@@ -42,3 +42,6 @@ The repository contains the solution of the problems that are posted on Hacker r
 
 7. [Reverse the linked list](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/ReverseList.js) <br/>
     Level - Easy
+    
+8. [Compare two linked list](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/CompareTwoLinkedList.js) <br/>
+    Level - Easy
