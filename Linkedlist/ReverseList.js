@@ -1,5 +1,7 @@
 'use strict';
 
+const fs = require('fs');
+
 process.stdin.resume();
 process.stdin.setEncoding('utf-8');
 
@@ -48,21 +50,22 @@ const SinglyLinkedList = class {
     }
 };
 
-function printSinglyLinkedList(node, sep) {
+function printSinglyLinkedList(node, sep, ws) {
     while (node != null) {
-        process.stdout.write(String(node.data));
+        ws.write(String(node.data));
 
         node = node.next;
 
         if (node != null) {
-            process.stdout.write(sep);
+            ws.write(sep);
         }
     }
 }
 
 /*
- * Complete the 'reversePrint' function below.
+ * Complete the 'reverse' function below.
  *
+ * The function is expected to return an INTEGER_SINGLY_LINKED_LIST.
  * The function accepts INTEGER_SINGLY_LINKED_LIST llist as parameter.
  */
 
@@ -76,7 +79,7 @@ function printSinglyLinkedList(node, sep) {
  *
  */
 
-function reversePrint(llist) {
+function reverse(llist) {
     // Write your code here
     let current = llist,prev = null, next;
     while(current != null){
@@ -86,14 +89,12 @@ function reversePrint(llist) {
         current = next;
     }
     llist = prev;
-    let node = llist;
-    while(node){
-        console.log(node.data);
-        node=node.next;
-    }
+    return llist;
 }
 
 function main() {
+    const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
+
     const tests = parseInt(readLine(), 10);
 
     for (let testsItr = 0; testsItr < tests; testsItr++) {
@@ -106,6 +107,11 @@ function main() {
             llist.insertNode(llistItem);
         }
 
-        reversePrint(llist.head);
+        let llist1 = reverse(llist.head);
+
+        printSinglyLinkedList(llist1, " ", ws)
+        ws.write("\n");
     }
+
+    ws.end();
 }
