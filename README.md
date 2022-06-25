@@ -29,3 +29,4 @@ The repository contains the solution of the problems that are posted on Hacker r
     Level - Easy
 
 3. [Inserting New Node at the head of Linked list](https://github.com/Namratasanger/HackerRank-DataStructures/tree/master/Linkedlist) <br/>
+    Level - Easy
