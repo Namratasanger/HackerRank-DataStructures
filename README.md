@@ -37,7 +37,7 @@ The repository contains the solution of the problems that are posted on Hacker r
 5. [Delete a Node at a given position](https://github.com/Namratasanger/HackerRank-DataStructures) <br/>
     Level - Easy
     
-6. [Print linked list in reverse order](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/PrintReverseLinkedList.js)
+6. [Print linked list in reverse order](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/PrintReverseLinkedList.js) <br/>
     Level - Easy
 
 7. [Reverse the linked list](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/ReverseList.js) <br/>
