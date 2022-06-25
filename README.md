@@ -20,3 +20,7 @@ The repository contains the solution of the problems that are posted on Hacker r
 
 6. [Array Manipulation](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/ArrayManipulation.js) <br/>
     Level - Hard
+
+### Linked list:
+1. [Printing the elements of Linked list](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/Print%20the%20elements%20of%20Linked%20List.js) <br/>
+    Level - Easy
