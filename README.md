@@ -51,3 +51,6 @@ The repository contains the solution of the problems that are posted on Hacker r
 
 10. [Delete suplicate entries from a linked list](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/DeleteDuplicateEntries.js) <br/>
     Level - Easy
+
+11. [Cycle detection in a linked list](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/CycleDetection.js) <br/>
+    Level - Medium
