@@ -48,3 +48,6 @@ The repository contains the solution of the problems that are posted on Hacker r
 
 9. [Merge two sorted linked list](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/MergeTwoSortedLinkedList.js) <br/>
     Level - Easy
+
+10. [Delete suplicate entries from a linked list](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/DeleteDuplicateEntries.js) <br/>
+    Level - Easy
