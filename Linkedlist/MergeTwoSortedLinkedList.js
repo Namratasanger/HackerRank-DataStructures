@@ -82,7 +82,7 @@ function printSinglyLinkedList(node, sep, ws) {
  */
 
 function getNode(llist, positionFromTail) {
-    // Write your code here
+    // 1st approach
     let node = llist,count = 0;
     while(node){
         node = node.next;
@@ -95,6 +95,19 @@ function getNode(llist, positionFromTail) {
         loopLength--;
     }
     return node.data;
+    
+   
+   // 2nd approach 
+   let counter = 0;
+   let node = llist, result = llist;
+   while(node){
+       if(counter > positionFromTail){
+           result = result.next;
+       }
+       node=node.next;
+       counter++;
+   }
+    return result.data;
 
 }
 
