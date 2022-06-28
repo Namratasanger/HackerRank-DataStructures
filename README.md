@@ -45,3 +45,6 @@ The repository contains the solution of the problems that are posted on Hacker r
     
 8. [Compare two linked list](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/CompareTwoLinkedList.js) <br/>
     Level - Easy
+
+9. [Merge two sorted linked list](https://github.com/Namratasanger/HackerRank-DataStructures/blob/master/Linkedlist/MergeTwoSortedLinkedList.js) <br/>
+    Level - Easy
