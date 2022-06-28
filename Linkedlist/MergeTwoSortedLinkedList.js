@@ -62,7 +62,14 @@ function printSinglyLinkedList(node, sep, ws) {
     }
 }
 
-// Complete the mergeLists function below.
+/*
+ * Complete the 'getNode' function below.
+ *
+ * The function is expected to return an INTEGER.
+ * The function accepts following parameters:
+ *  1. INTEGER_SINGLY_LINKED_LIST llist
+ *  2. INTEGER positionFromTail
+ */
 
 /*
  * For your reference:
@@ -73,38 +80,22 @@ function printSinglyLinkedList(node, sep, ws) {
  * }
  *
  */
-function mergeLists(head1, head2) {
-    let list1 = head1;
-    let list2 = head2;
-    let s;
-    if(list1.data < list2.data){
-        s = list1;
-        list1 = list1.next;
-    }else{
-        s = list2; 
-        list2 = list2.next;
+
+function getNode(llist, positionFromTail) {
+    // Write your code here
+    let node = llist,count = 0;
+    while(node){
+        node = node.next;
+        count++;
     }
-    head1 = s;
-    while(list1 && list2){
-        if(list1.data <= list2.data){
-            s.next = list1;
-            s=s.next;
-            list1 = list1.next;
-        }
-        else if (list1.data > list2.data){
-            s.next = list2;
-            s=s.next;
-            s = list2;
-            list2 = list2.next;
-        }
+    let loopLength = count - positionFromTail - 1;
+    node = llist;
+    while(loopLength > 0 && node){
+        node = node.next;
+        loopLength--;
     }
-    if(list1 ==null && list2 == null){
-    }else if(list1 == null){
-        s.next = list2;
-    }else if(list2 == null){
-        s.next = list1;
-    }
-    return head1;
+    return node.data;
+
 }
 
 function main() {
@@ -113,28 +104,20 @@ function main() {
     const tests = parseInt(readLine(), 10);
 
     for (let testsItr = 0; testsItr < tests; testsItr++) {
-        const llist1Count = parseInt(readLine(), 10);
+        const llistCount = parseInt(readLine(), 10);
 
-        let llist1 = new SinglyLinkedList();
+        let llist = new SinglyLinkedList();
 
-        for (let i = 0; i < llist1Count; i++) {
-            const llist1Item = parseInt(readLine(), 10);
-            llist1.insertNode(llist1Item);
-        }
-      
-      	const llist2Count = parseInt(readLine(), 10);
-
-        let llist2 = new SinglyLinkedList();
-
-        for (let i = 0; i < llist2Count; i++) {
-            const llist2Item = parseInt(readLine(), 10);
-            llist2.insertNode(llist2Item);
+        for (let i = 0; i < llistCount; i++) {
+            const llistItem = parseInt(readLine(), 10);
+            llist.insertNode(llistItem);
         }
 
-        let llist3 = mergeLists(llist1.head, llist2.head);
+        const position = parseInt(readLine(), 10);
 
-        printSinglyLinkedList(llist3, " ", ws)
-        ws.write("\n");
+        let result = getNode(llist.head, position);
+
+        ws.write(result + "\n");
     }
 
     ws.end();
